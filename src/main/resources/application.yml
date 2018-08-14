@@ -23,6 +23,8 @@ spring:
         testOnReturn: false
         poolPreparedStatements: true
         maxOpenPreparedStatements: 20
+    cache:
+      cache-names: defaultCache
 mybatis:
   mapper-locations: classpath:mapping/*.xml
 

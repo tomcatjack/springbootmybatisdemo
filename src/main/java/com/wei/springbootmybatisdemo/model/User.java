@@ -1,6 +1,8 @@
 package com.wei.springbootmybatisdemo.model;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable{
     private Integer userId;
 
     private String userName;
