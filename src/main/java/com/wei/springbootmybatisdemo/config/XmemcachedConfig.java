@@ -33,6 +33,8 @@ public class XmemcachedConfig {
 //                    return s+"luqi";
 //                }
 //            });
+            //加代码
+            System.out.println("123");
             return memcachedClientBuilder;
         }catch (Exception e){
             log.info("构建builder异常！！",e);
